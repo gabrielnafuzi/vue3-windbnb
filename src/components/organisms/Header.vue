@@ -22,7 +22,7 @@ export default defineComponent({
 
 <style lang="postcss" scoped>
 .header {
-  @apply flex flex-col;
-  @apply md:flex-row md:justify-between md:items-center;
+  @apply flex flex-col mb-9;
+  @apply md:flex-row md:justify-between md:items-center md:mb-14;
 }
 </style>

@@ -10,7 +10,9 @@ module.exports = {
         base: {
           red: '#EB5757',
           black: '#333333',
-          gray: '#BDBDBD'
+          gray: '#BDBDBD',
+          'gray-2': '#4F4F4F',
+          'gray-3': '#828282'
         }
       }
     }
