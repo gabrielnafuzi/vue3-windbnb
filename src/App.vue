@@ -1,11 +1,15 @@
 <template>
-  <h1>WindBnb</h1>
+  <HomeTemplate />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { HomeTemplate } from '@/components/templates'
 
 export default defineComponent({
-  name: 'App'
+  name: 'App',
+  components: {
+    HomeTemplate
+  }
 })
 </script>
